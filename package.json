@@ -1,6 +1,6 @@
 {
   "name": "etiqan",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Site for etiqan companey",
   "main": "index.js",
   "private": "true",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://Power50015@bitbucket.org/Power50015/global-vision-medical.git"
+    "url": "git+https://github.com/Power50015/Etiqan.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/Power50015/global-vision-medical#readme",
+  "homepage": "https://github.com/Power50015/Etiqan#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "css-loader": "^2.1.0",

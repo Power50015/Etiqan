@@ -1,10 +1,10 @@
-# Global Vision Medical WebSite
+# Etiqan WebSite
 
 this was a pug.js & Sass template 
 
 ![Preview Img](ux/screencapture.png)
 
-https://gracious-volhard-7eaa9d.netlify.app/
+https://Etiqan.netlify.app/
 
 ## Quickstart
 
@@ -12,7 +12,7 @@ https://gracious-volhard-7eaa9d.netlify.app/
 2. Clone the project
 
     ```bash
-    git clone https://Power50015@bitbucket.org/Power50015/global-vision-medical.git
+    git clone https://github.com/Power50015/Etiqan.git
     ```
 
 3. Go to project folder and run
