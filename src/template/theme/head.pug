@@ -5,6 +5,7 @@ title Etiqan || #{title}
 style(media='screen', type='text/css').
     html{
         height: 100%;
+        overflow: hidden;
     }
     body {
         overflow: hidden;
@@ -52,7 +53,6 @@ script.
     window.onload = () => {
     setTimeout(() => {
         document.getElementById("loading-screen").style.display = "none";
-        document.getElementById("body").style.setProperty('overflow','auto');
         }, 1000); //wait for page load PLUS two seconds.
     };
     window.onbeforeunload = function () {
