@@ -1,0 +1,5 @@
+mixin hyperList(linkName, linkUrl, linkId)
+    - var n = 0;
+        while linkName.length > n 
+            li
+                a(href=linkUrl[n] id=linkId[n] class="nav-item")=linkName[n++]

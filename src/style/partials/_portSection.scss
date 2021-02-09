@@ -1,0 +1,23 @@
+.port {
+  margin-bottom: 200px;
+  max-width: 100%;
+  h2 {
+    font-size: 4rem;
+    color: $color-2;
+    margin: 50px 0;
+    position: relative;
+      &::after {
+        bottom: -25px !important;
+      }
+  }
+
+  &:hover {
+    h2 {
+      &::after {
+        background: $color-1;
+        width: 10% !important;
+        bottom: -25px !important;
+      }
+    }
+  }
+}

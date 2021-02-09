@@ -1,0 +1,66 @@
+.service {
+  h2 {
+    font-size: 4rem;
+    color: $color-2;
+    margin: 50px 0;
+    position: relative;
+  }
+  h2 {
+    &::after {
+      background: $color-1;
+    }
+  }
+  .container-fluid {
+    padding: 20px 0 100px;
+    .item {
+      border-radius: 3px;
+      text-align: right;
+      padding: 15px 0 0 0;
+      i {
+        color: $color-2;
+        font-size: 4rem;
+      }
+      h3 {
+        color: $color-1;
+        padding-bottom: 15px;
+        font-size: 1.5rem;
+        padding-top: 20px;
+      }
+      p {
+        padding: 15px 5px;
+        line-height: 2rem;
+        text-align: right;
+      }
+      ul {
+        li {
+          text-align: right;
+          padding: 15px 5px;
+          line-height: 1rem;
+        }
+      }
+    }
+  }
+  .why {
+    min-height: 700px;
+    .why-img {
+      max-height: 700px;
+      height: 100%;
+    }
+    .item {
+      h3 {
+        color: $color-1 !important;
+        font-size: 2rem !important;
+        i {
+          font-size: 3rem !important;
+          color: $color-5 !important;
+          padding-left: 20px;
+        }
+        font-size: 1.5rem;
+      }
+      p {
+        padding: 10px 0;
+        line-height: 25px;
+      }
+    }
+  }
+}

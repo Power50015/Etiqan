@@ -1,0 +1,41 @@
+// Import Vendors
+@import'vendor/reset';
+@import'vendor/bootstrap-grid';
+@import'vendor/owl.carousel';
+@import'vendor/owl.theme.default';
+
+
+// fonts
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+
+// import theme
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100vw;
+    // height: 10000px;
+}
+
+@import 'modules/colors';
+@import 'modules/typography';
+@import 'modules/utility';
+@import 'modules/buttons';
+
+// index.css
+@import 'partials/slide';
+@import 'partials/nav';
+@import 'partials/aboutSection';
+@import 'partials/serviceSection';
+@import 'partials/quotesSection';
+@import 'partials/portSection';
+@import 'partials/contactSection';
+@import 'partials/footer';
+

@@ -1,0 +1,16 @@
+include ./mixins/mixins
+doctype
+html(lang="ar" dir="rtl")
+    head
+        -var title = "إتقان"; 
+        include ./theme/head
+    body#body
+        #loading-screen
+            #loader
+        include ./layouts/slide
+        include ./layouts/aboutSection
+        include ./layouts/serviceSection
+        include ./layouts/quotesSection
+        include ./layouts/portSection
+        include ./layouts/contactSection
+        include ./theme/footer

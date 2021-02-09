@@ -1,0 +1,37 @@
+footer {
+  position: relative;
+  background: $color-2;
+  color: $color-5;
+  &::before {
+    content: "";
+    position: absolute;
+    top: -101px;
+    border-right: 100vw solid $color-2;
+    border-top: 101px solid transparent;
+  }
+  .soial {
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      margin: 0 40px;
+      a {
+        color: $color-5;
+        font-size: 2rem;
+        &:hover {
+          color: $color-1;
+        }
+      }
+    }
+  }
+  .copy {
+    background: $color-1;
+    color: $color-5;
+    text-align: center;
+    padding: 30px 0;
+    a{
+      color: $color-5
+    }
+  }
+}

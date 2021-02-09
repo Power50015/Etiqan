@@ -1,0 +1,60 @@
+meta(charset="UTF-8")
+meta(name="viewport", content="width=device-width, initial-scale=1.0")
+meta(http-equiv="X-UA-Compatible", content="ie=edge")
+title Etiqan || #{title}
+style(media='screen', type='text/css').
+    html{
+        height: 100%;
+    }
+    body {
+        overflow: hidden;
+    }
+    #loading-screen {
+    position: absolute;
+    height: 100%;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    z-index: 99999;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #loader {
+    margin: 100px auto;
+    width: 120px;
+    height: 120px;
+    border: 16px solid #5DD2C2;
+    border-top: 16px solid #00E6B3;
+    border-radius: 50%;
+    animation: spin 2s linear infinite, heart-beat 2s linear infinite;
+    background-color: #fff;
+    text-align: center;
+    line-height: 120px;
+    }
+
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    @keyframes heart-beat {
+        55% { background-color: #fff; }
+        60% { background-color: #5DD2C2; }
+        65% { background-color: #fff; }
+        70% { background-color: #5DD2C2; }
+        100% { background-color: #fff; }
+    }
+
+script.
+    window.onload = () => {
+    setTimeout(() => {
+        document.getElementById("loading-screen").style.display = "none";
+        document.getElementById("body").style.setProperty('overflow','auto');
+        }, 1000); //wait for page load PLUS two seconds.
+    };
+    window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+    };
