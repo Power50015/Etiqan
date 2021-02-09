@@ -18,4 +18,19 @@
       }
     }
   }
+
+  .slider-arrow {
+    color: $color-2;
+    font-size: 5rem;
+    &:hover{
+      color: $color-1;
+      cursor: pointer;
+    }
+  }
+  .slider-arrow-right{
+    text-align: right;
+  }
+  .slider-arrow-left{
+    text-align: left;
+  }
 }

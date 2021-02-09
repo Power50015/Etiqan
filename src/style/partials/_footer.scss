@@ -2,13 +2,6 @@ footer {
   position: relative;
   background: $color-2;
   color: $color-5;
-  &::before {
-    content: "";
-    position: absolute;
-    top: -101px;
-    border-right: 100vw solid $color-2;
-    border-top: 101px solid transparent;
-  }
   .soial {
     width: 100%;
     padding: 25px 0;
