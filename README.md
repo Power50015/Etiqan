@@ -2,7 +2,7 @@
 
 this was a pug.js & Sass template 
 
-![Preview Img](ux/screencapture.png)
+![Preview Img](ux/screencapture.jfif)
 
 https://Etiqan.netlify.app/
 
