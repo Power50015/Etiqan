@@ -1,5 +1,4 @@
 .port {
-  margin-bottom: 200px;
   max-width: 100%;
   h2 {
     font-size: 4rem;
@@ -10,7 +9,6 @@
         bottom: -25px !important;
       }
   }
-
   &:hover {
     h2 {
       &::after {

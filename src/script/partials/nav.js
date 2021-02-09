@@ -52,7 +52,7 @@ $(function() {
     var navId = $(this).attr('id');
     navId ="."+navId;
     $('html, body').animate({
-      scrollTop: $(navId).offset().top - 100,
+      scrollTop: $(navId).offset().top - 150,
     },1000);
   });
 });

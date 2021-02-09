@@ -19,9 +19,11 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 }
 
 body {
-    overflow-x: hidden;
     max-width: 100vw;
-    // height: 10000px;
+}
+main{
+    max-width: 100%;
+    overflow-y: hidden;
 }
 
 @import 'modules/colors';
@@ -36,6 +38,7 @@ body {
 @import 'partials/serviceSection';
 @import 'partials/quotesSection';
 @import 'partials/portSection';
+@import 'partials/infoSection';
 @import 'partials/contactSection';
 @import 'partials/footer';
 

@@ -1,0 +1,57 @@
+.info {
+    min-height: 300px;
+    background-color: $color-2;
+    color: $color-5;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: -100px;
+      border-right: 100vw solid $color-2;
+      border-top: 100px solid transparent;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -100px;
+      border-left: 100vw solid $color-2;
+      border-bottom: 100px solid transparent;
+    }
+    h2 {
+        font-size: 4rem;
+        color: $color-4;
+        margin: 50px 0;
+        position: relative;
+    
+        &::after {
+          background: $color-5;
+        }
+      }
+      h3{
+        font-size: 1.5rem;
+      }
+      .info-item {
+        margin: 0 0 50px 0;
+        text-align: center;
+        .icon {
+          margin-top: 15px;
+          background-color: $color-2;
+          color: $color-1;
+          padding: 20px 25px;
+          border: 1px solid $color-5;
+          border-radius: 50%;
+          font-size: 2rem;
+          display: inline-block;
+        }
+        h4,
+        h5 {
+          padding-left: 15px;
+          color: #fff;
+          font-size: 1.2rem;
+        }
+        a {
+          color: $color-5;
+          text-decoration: none;
+        }
+      }
+  }

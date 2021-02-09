@@ -1,6 +1,17 @@
 .btn {
-    text-decoration: none;
-    text-align: center;
-    border: 2px solid #EEE;
-    padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #eee;
+  padding: 20px;
+}
+.fixed-btn {
+  font-size: 3.2rem;
+  position: fixed;
+  z-index: 99999;
+  bottom: 30px;
+  right: 3%;
+  color: #fff;
+  background: #5dd2c2;
+  padding: 11px;
+  border-radius: 50%;
 }

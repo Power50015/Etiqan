@@ -4,13 +4,17 @@ html(lang="ar" dir="rtl")
     head
         -var title = "إتقان"; 
         include ./theme/head
-    body#body
+    body
         #loading-screen
             #loader
-        include ./layouts/slide
-        include ./layouts/aboutSection
-        include ./layouts/serviceSection
-        include ./layouts/quotesSection
-        include ./layouts/portSection
-        include ./layouts/contactSection
-        include ./theme/footer
+        a(href="https://api.whatsapp.com/send/?phone=+966550561364&text&app_absent=0" target="_blank").fixed-btn
+                i.fab.fa-whatsapp
+        main
+            include ./layouts/slide
+            include ./layouts/aboutSection
+            include ./layouts/serviceSection
+            include ./layouts/quotesSection
+            include ./layouts/portSection
+            include ./layouts/infoSection
+            include ./layouts/contactSection
+            include ./theme/footer
