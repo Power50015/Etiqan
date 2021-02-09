@@ -12,10 +12,12 @@ style(media='screen', type='text/css').
     }
     #loading-screen {
     position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
     height: 100%;
     background-color: #fff;
     margin: 0;
     padding: 0;
+    to
     z-index: 99999;
     width:100%;
     display: flex;
@@ -53,7 +55,7 @@ script.
     window.onload = () => {
     setTimeout(() => {
         document.getElementById("loading-screen").style.display = "none";
-        }, 1000); //wait for page load PLUS two seconds.
+        }, 100000); //wait for page load PLUS two seconds.
     };
     window.onbeforeunload = function () {
     window.scrollTo(0, 0);
