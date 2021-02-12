@@ -14,7 +14,7 @@ style(media='screen', type='text/css').
     background-color: #fff;
     margin: 0;
     padding: 0;
-    z-index: 999999;
+    z-index: 1000;
     width:100%;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ style(media='screen', type='text/css').
 script.
     window.onload = () => {
     setTimeout(() => {
-        document.getElementById("loading-screen").style.display = "none";
+        document.getElementById("loading-screen").remove();
         }, 1000); //wait for page load PLUS two seconds.
     };
     window.onbeforeunload = function () {

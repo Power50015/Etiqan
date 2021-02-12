@@ -6,7 +6,7 @@ nav {
     position: relative;
     width: 100%;
     top: 0;
-    z-index: 9999;
+    z-index: 998;
     background-color: $color-5;
     @media (max-width: 800px) {
       padding: 10px 0;
@@ -48,7 +48,7 @@ nav {
       position: absolute;
       width: 100%;
       right: 0;
-      z-index: 9999;
+      z-index: 998;
       background-color: $color-5;
       li {
         display: block;
