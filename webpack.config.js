@@ -9,7 +9,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 // vars for project
 let htmlpages = [];
-const pages = ["index"];
+const pages = ["index","msg"];
 
 //load multi html pages
 pages.forEach((element) => {

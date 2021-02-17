@@ -1,0 +1,36 @@
+include ./mixins/mixins
+doctype
+html(lang="ar" dir="rtl")
+    head
+        -var title = "إتقان"; 
+        include ./theme/head
+    body
+        #loading-screen
+            #loader
+        main
+            header
+                div.anim-bg
+                    ul 
+                        li
+                            img(src="../images/header/1.png")
+                        li
+                            img(src="../images/header/2.png")
+                        li
+                            img(src="../images/header/3.png")
+                        li
+                            img(src="../images/header/4.png")
+                        li
+                            img(src="../images/header/5.png")
+                        li
+                            img(src="../images/header/6.png")
+                        li
+                            img(src="../images/header/7.png")
+                    
+                div( class="container slide")
+                    .row.justify-content-between
+                        .col-12.col-lg-6.slide-img
+                            img(src="../images/slide.png", alt="My photo").js-tilt
+                        .col-lg-6.col-12.f-c-1.slide-text.order-lg-last.order-first.mt-5
+                            img(src="../images/logo.png", alt="My photo", width="150").mt-5
+                            h2 تم إستلام رسالتك و سيتم الرد عليك فى أسرع وقت
+                            a(href="/").redrict-btn للرجوع للصفحه الرئيسية 

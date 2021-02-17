@@ -23,8 +23,9 @@ section.contact
                                 a(href="mailto:sales@etiqan.com") sales@etiqan.com
             .col-12.col-lg-6
                 .contact-form
-                    form(id="contact_form" name="contact_form" action="" method="post" novalidate="novalidate")
-                        input(type="text", name="form_name" placeholder="الاسم الكريم").d-block.input
-                        input(type="tel", name="form_phone" placeholder="رقم الجوال").d-block.input
-                        textarea(name="form_message" rows="10" placeholder="نص الرسالة").d-block.input
-                        input(type="submit", value="إرسال").input
+                    form(id="contact_form" name="contact_form" novalidate="novalidate")
+                        input(type="text", name="name" placeholder="الاسم الكريم").d-block.input
+                        input(type="email", name="email" placeholder="البريد الإلكترونى (اختياري)").d-block.input
+                        input(type="tel", name="telephone" placeholder="رقم الجوال").d-block.input
+                        textarea(name="message" rows="10" placeholder="نص الرسالة" required="required").d-block.input.input-msg
+                        input(type="submit", value="إرسال").input.submit-btn#contact-form-btn
