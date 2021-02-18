@@ -1,7 +1,7 @@
 import toastr from "toastr";
 $("#contact-form-btn").click(function (event) {
   event.preventDefault();
-  var values = $(this).serialize();
+  var values = $("#contact-form").serialize();
   $.ajax({
     dataType: "json",
     url: "./mail.php",
