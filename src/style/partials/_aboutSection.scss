@@ -4,6 +4,7 @@
   margin-bottom: 150px;
   width: 100%;
   min-height: 500px;
+  z-index: 998;
 
   &::before {
     content: "";

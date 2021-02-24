@@ -8,7 +8,11 @@ html(lang="ar" dir="rtl")
         #loading-screen
             #loader
         a(href="https://api.whatsapp.com/send?phone=+966550561364&text=Hello" target="_blank").fixed-btn
+            button 
                 i.fab.fa-whatsapp
+            span.whatsapp-msg
+                .arrow
+                .whatsapp-msg-text تواصل معنا
         main
             include ./layouts/slide
             include ./layouts/aboutSection
