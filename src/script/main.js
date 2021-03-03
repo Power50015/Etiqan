@@ -1,6 +1,5 @@
 import "../style/index.scss";
 
-
 import "tilt.js";
 import "jquery.nicescroll";
 import "owl.carousel";
